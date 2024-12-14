@@ -104,7 +104,7 @@ function AllowRunServiceBind.OnInvoke(args)
         Icon = "rbxthumb://type=Asset&id=103439991632690&w=150&h=150",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
-        Button1 = "Bật Lại Cu",
+        Button1 = "Enable",
         Button2 = "Tắt Đi Cu",
     })
 end
@@ -139,7 +139,7 @@ CoreGui:SetCore("SendNotification", {
     Icon = "rbxthumb://type=Asset&id=103439991632690&w=150&h=150",
     Duration = math.huge,
     Callback = AllowRunServiceBind,
-    Button1 = "Enable",
+    Button1 = "Bật Lại Cu",
     Button2 = "Disable",
 })
 

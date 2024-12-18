@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-getgenv().Key = "FreeKey_ALEXFIGLAG_ONKEY100YEAR"
+getgenv().Key = "KEYFREE_VANTHANHIOS_100YEAR"
 getgenv().Key = "string"
 
 local Tab = Window:MakeTab({
@@ -40,7 +40,7 @@ Tab:AddTextbox({
 Tab:AddButton({
     Name = "Ấn Vào Đây Để Check Key !",
     Callback = function()
-        if getgenv().KeyInput == getgenv().Key then
+        if getgenv().Key == getgenv().Key then
             OrionLib:MakeNotification({
                 Name = "Đang Checking Key",
                 Content = "",
@@ -79,7 +79,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Lấy Key Free Tại Đây!",
 	Callback = function()
-      		setclipboard("FreeKey_ALEXFIGLAG_ONKEY100YEAR")
+      		setclipboard("KEYFREE_VANTHANHIOS_100YEAR")
   	end    
 }) 
     
